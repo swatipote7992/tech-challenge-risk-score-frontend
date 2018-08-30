@@ -76,17 +76,20 @@ Returns an array of risk rule objects, each taking the following form (? indicat
 Each rule is only evaluated if funds have been contributed from matching categories/entities.
 
 *Linear percentage contribution type*
+
 Rules using this type (which all in the exercise do), work as follows:
-- If the contribution of funds from a matching entity/category is less than this amount, the rule is not triggered
-- If the contribution of funds equals the min threshold, then the min score is applied
-- If the contribution of funds equals the max threshold, then the max score is applied
-- For any percentage in between, the score assigned is on a linear scale between the min and max
+
+* If the contribution of funds from a matching entity/category is less than this amount, the rule is not triggered
+* If the contribution of funds equals the min threshold, then the min score is applied
+* If the contribution of funds equals the max threshold, then the max score is applied
+* For any percentage in between, the score assigned is on a linear scale between the min and max
 
 E.g., If a rule has the following properties:
-- Min threshold: 20
-- Min score: 1
-- Max threshold: 80
-- Max score: 7
+
+* Min threshold: 20
+* Min score: 1
+* Max threshold: 80
+* Max score: 7
 
 And this rule is triggered with a contribution of 50, a score of 4 is assigned. 
 

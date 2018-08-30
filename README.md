@@ -79,9 +79,9 @@ Each rule is only evaluated if funds have been contributed from matching categor
 
 Rules using this type (which all in the exercise do), work as follows:
 
-* If the contribution of funds from a matching entity/category is less than this amount, the rule is not triggered
+* If the contribution of funds from a matching entity/category is less than the min threshold, the rule is not triggered
 * If the contribution of funds equals the min threshold, then the min score is applied
-* If the contribution of funds equals the max threshold, then the max score is applied
+* If the contribution of funds is equal to or greater than the max threshold, then the max score is applied
 * For any percentage in between, the score assigned is on a linear scale between the min and max
 
 E.g., If a rule has the following properties:

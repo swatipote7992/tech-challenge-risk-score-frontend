@@ -1,7 +1,7 @@
 # Risk rules tech challenge
 
 This application is a simple transaction analysis tool, that takes a bitcoin transaction hash, executes a GET request
-against a backend server and displays the returned response body. Your task is to take this response, and use a given
+against a backend server and displays the returned analysis, detailing from where the funds have come from. Your task is to take this analysis, and use a given
 set of risk rules to compute and display a risk score for the given transaction hash.
 
 ## API documentation
@@ -102,6 +102,8 @@ And this rule is triggered with a contribution of 50, a score of 4 is assigned.
 ## Frontend App
 
 ### Starting
+
+Copy the `.env.example` file to `.env` and fill in the API url (will be provided to you)
 
 Run `npm install` to install the dependencies, then `npm start` to start the app. This should open your browser and navigate to localhost:3000
 

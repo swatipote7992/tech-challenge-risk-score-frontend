@@ -42,17 +42,9 @@ The response payload takes the following shape:
 | cluster.id | int | the (Elliptic) id of the cluster
 | cluster.candidate_address | string | One address from the cluster deemed the "representative" address
 | cluster.satoshis_balance | float | the balance of the cluster
-| cluster.satoshis_in | float | the number of satoshis that have flowed into the cluster
-| cluster.satoshis_out | float | the number of satoshis that have flowed out of the cluster
 | cluster.address_count | int | the number of addresses contained in the cluster
 | cluster.name | name | the name applied to the cluster
 | cluster.category | category | the category assigned to the cluster
-| cluster.total_incoming_edges | int | the number of transactions that deposit into the cluster
-| cluster.total_outgoing_edges | int | the number of transactions that withdraw from the cluster
-| cluster.first_seen_block_height | int | the block in which this cluster was first identified as active
-| cluster.first_seen_time | int | the time at which this cluster was first identified as active
-| cluster.last_seen_block_height | int | the block in which this cluster was most recently identified as active
-| cluster.last_seen_time | int | the time at which this cluster was most recently identified as active
 | satoshis_vol | int |
 | pct_contribution | int | the percentage of the input funds to the transaction that this cluster has contributed
 | path_statistics | object | the details of how this entity relates to the queried tx

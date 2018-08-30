@@ -43,8 +43,8 @@ The response payload takes the following shape:
 | cluster.candidate_address | string | One address from the cluster deemed the "representative" address
 | cluster.satoshis_balance | float | the balance of the cluster
 | cluster.address_count | int | the number of addresses contained in the cluster
-| cluster.name | name | the name applied to the cluster
-| cluster.category | category | the category assigned to the cluster
+| cluster.name | string | the name applied to the cluster
+| cluster.category | string | the category assigned to the cluster
 | satoshis_vol | int |
 | pct_contribution | int | the percentage of the input funds to the transaction that this cluster has contributed
 | path_statistics | object | the details of how this entity relates to the queried tx

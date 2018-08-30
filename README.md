@@ -68,10 +68,10 @@ Returns an array of risk rule objects, each taking the following form (? indicat
 | entities? | [strings] | the entities that should trigger this rule
 | rule_criteria | object | the definition of how this rule should be evaluated
 | rule_criteria.type | string | see below
-| min_contribution_threshold | int | see below
-| max_contribution_threshold | int | see below
-| min_score | int | see below
-| max_score | int | see below
+| rule_criteria.min_contribution_threshold | int | see below
+| rule_criteria.max_contribution_threshold | int | see below
+| rule_criteria.min_score | int | see below
+| rule_criteria.max_score | int | see below
 
 Each rule is only evaluated if funds have been contributed from matching categories/entities.
 

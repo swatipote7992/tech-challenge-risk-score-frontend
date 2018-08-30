@@ -11,8 +11,6 @@ class App extends Component {
     super();
     this.state = {
       transactionInput: '',
-      loading: false,
-      result: {},
     };
   }
 

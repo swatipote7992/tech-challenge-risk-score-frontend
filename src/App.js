@@ -23,7 +23,13 @@ class App extends Component {
       return <h3>Please submit a Bitcoin transaction hash to get a result</h3>;
     }
     else {
-      return <h3><ReactJson style={{fontSize: '10pt'}} src={transaction.result} /></h3>;
+      return (
+        <h3>
+          <ReactJson style={{fontSize: '10pt'}} name="Transaction Analysis" src={transaction.result.analysis} />
+          <hr />
+          <ReactJson style={{fontSize: '10pt'}} name="Risk Rules" src={transaction.result.rules} />
+        </h3>
+      );
     }
   }
 

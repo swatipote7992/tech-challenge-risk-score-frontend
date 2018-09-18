@@ -19,3 +19,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# zipped
+tech-challenge-risk-score-frontend.zip

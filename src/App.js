@@ -25,7 +25,7 @@ class App extends Component {
     else {
       return (
         <h3>
-          <ReactJson style={{fontSize: '10pt'}} name="Transaction Analysis" src={transaction.result.analysis} />
+          <ReactJson style={{fontSize: '10pt'}} name="Transaction Analysis" src={transaction.result.txAnalysis} />
           <hr />
           <ReactJson style={{fontSize: '10pt'}} name="Risk Rules" src={transaction.result.rules} />
         </h3>

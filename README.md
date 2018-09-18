@@ -40,6 +40,12 @@ And this rule is triggered with a contribution of 50, a score of 4 is assigned.
 
 Some business logic around multiple entities / multiple matching rules is unspecified. Make assumptions where necessary and be prepared to discuss your decisions.
 
+## Submission 
+
+To submit your code:
+ * `npm run zip` will output an archive `tech-challenge-risk-score-frontend.zip`
+ * Upload to https://www.dropbox.com/request/5L09ACYzL0SjADfAotnb
+
 ## The Risk Score App
 
 ### Starting

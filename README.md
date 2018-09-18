@@ -52,9 +52,7 @@ To submit your code:
 
 The app runs on Node v10, it may work against other versions but is untested.
 
-Copy the `.env.example` file to `.env` and fill in the API url (will be provided to you).
-
-Run `npm install` to install the dependencies, then `npm start` to start the app. This should open your browser and navigate to localhost:3000
+Run `npm install` to install the dependencies, then `npm start` to start the app. This should open your browser and navigate to `localhost:3000`
 
 ### Structure
 

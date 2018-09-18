@@ -9,25 +9,23 @@ export const submitTransaction = (hash) => (dispatch) => {
     type: TRANSACTION_ANALYSIS_SUBMITTED,
   });
 
-  // Request the analysis
-  return axios.get(`${baseUrl}/transactions/${hash}`)
-    .then(({ data }) => calculateRisk(data))
-    .then(({ analysis, rules }) => dispatch(
+  // Request analysis and rules from the API
+  // Calculate Risk - TODO
+  // Dispatch Risk Calculation
+  return Promise.all([
+    axios.get(`${baseUrl}/transactions/${hash}`).then(({ data }) => data),
+    axios.get(`${baseUrl}/rules`).then(({ data }) => data),
+  ])
+    .then(([txAnalysis, rules]) => calculateRisk(txAnalysis, rules))
+    .then(risk => dispatch(
       {
         type: TRANSACTION_ANALYSIS_SUCCEEDED,
-        payload: { analysis, rules },
+        payload: risk,
       }
     ));
 };
 
-const calculateRisk = (analysis) => {
-  // Request the risk rules
-  return axios.get(`${baseUrl}/rules`)
-    .then(({ data }) => {
-      // TODO - perform risk calculation
-      return {
-        analysis,
-        rules: data
-      }
-    })
+const calculateRisk = (txAnalysis, rules) => {
+  // TODO - use rules to calculate risk of each transaction
+  return { txAnalysis, rules };
 };

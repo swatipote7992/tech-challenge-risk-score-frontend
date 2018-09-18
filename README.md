@@ -15,8 +15,8 @@ All others will get a 404.
 
 ## Tasks
 
-* Using the transaction analyses and risk rules retrieved, implement logic to calculate a risk score for the submitted transaction.
-* Display the calculated risk score on the frontend (can be as simple as appending it to the JSON, but bonus points for showing it in a more elaborate fashion!)
+* **Implement logic to calculate a risk score for the submitted transaction.** There is a provided skeleton function `actions/index.js:calculateRisk` taking transaction analysis and risk rules as arguments. Your main challenge is to implement this function.
+* **Display the calculated risk score on the frontend**. This can be as simple as appending to the JSON, but bonus points for showing it in a more elaborate fashion!
 
 ### Risk Calculation
 

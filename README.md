@@ -50,7 +50,7 @@ To submit your code:
 
 ### Starting
 
-The app runs on Node v10, it may work against other versions but is untested.
+The app runs on Node v12 LTS, it may work against other versions but is untested.
 
 Run `npm install` to install the dependencies, then `npm start` to start the app. This should open your browser and navigate to `localhost:3000`
 

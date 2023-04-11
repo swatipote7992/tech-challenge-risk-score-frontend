@@ -1,4 +1,6 @@
-[
+import Rule from '../types/rule'
+
+const rules: Rule[] = [
     {
         "id": "4e4e0e8c-5705-407e-9aa9-17822482260b",
         "name": "Gavin",
@@ -56,3 +58,5 @@
         }
     }
 ]
+
+export default rules;

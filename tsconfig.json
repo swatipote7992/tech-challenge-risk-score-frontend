@@ -1,8 +1,10 @@
 {
     "compilerOptions": {
+        "allowJs": true,
         "esModuleInterop": true,
     },
     "include": [
-        "**/*.ts"
+        "**/*.ts",
+        "**/*.js",
     ]
 }

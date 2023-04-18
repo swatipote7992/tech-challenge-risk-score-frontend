@@ -1,10 +1,7 @@
 {
-    "compilerOptions": {
-        "allowJs": true,
-        "esModuleInterop": true,
-    },
-    "include": [
-        "**/*.ts",
-        "**/*.js",
-    ]
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true
+  },
+  "include": ["**/*.ts", "**/*.js"]
 }

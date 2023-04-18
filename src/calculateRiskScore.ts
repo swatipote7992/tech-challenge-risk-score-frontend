@@ -1,7 +1,7 @@
-import contributions from '../data/contributions'
+import transactions from '../data/transactions'
 
 const calculateRiskScore = (transactionHash): number => {
-    const transactionData = contributions[transactionHash]
+    const transactionData = transactions[transactionHash]
 
     if (!transactionData) {
         throw new Error('404 transaction not found')

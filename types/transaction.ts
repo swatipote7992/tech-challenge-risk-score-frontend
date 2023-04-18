@@ -1,4 +1,4 @@
-type Contribution = {
+type Transaction = {
     hash: string,
     block_height: number,
     time: number,
@@ -19,4 +19,4 @@ type Contribution = {
     }[]
 }
 
-export default Contribution
+export default Transaction

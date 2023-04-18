@@ -1,6 +1,6 @@
-import Contribution from '../types/contributions'
+import Transaction from '../types/transaction'
 
-const contributionsMap: Record<string, Contribution> = {
+const transactionsMap: Record<string, Transaction> = {
     "c490b06b3fe9ea6626b2aa955f5e98f58152875637405f8ebe58879602c72457": {
         "hash": "c490b06b3fe9ea6626b2aa955f5e98f58152875637405f8ebe58879602c72457",
         "block_height": 494725,
@@ -115,4 +115,4 @@ const contributionsMap: Record<string, Contribution> = {
     }
 }
   
-export default contributionsMap;
+export default transactionsMap;

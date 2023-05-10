@@ -39,4 +39,4 @@ Run `npm install` to install the dependencies, then `npm test` to run the tests.
 You should submit your code within one hour of starting the challenge.
 
 - `npm pack` will output an archive `risk-rule-challenge-0.1.0.tgz`
-- Reply to the email that sent you the link to this repo, with the zip file attached.
+- Reply to the email that sent you the link to this repo, with the .tgz file attached.

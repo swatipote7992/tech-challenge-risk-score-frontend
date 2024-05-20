@@ -12,12 +12,10 @@ type BaseRule = {
 
 type EntityRule = BaseRule & {
   entities: string[];
-  categories?: undefined;
 };
 
 type CategoryRule = BaseRule & {
   categories: string[];
-  entities?: undefined;
 };
 
 type Rule = EntityRule | CategoryRule;

@@ -6,7 +6,9 @@ They allow Elliptic to define that contributions from entities which are sanctio
 
 Please see readme.md for details on how to run the code, and please don't worry if you don't have experience with Nestjs. We have set up this codebases, so the only file you _need_ to change is src/risk-score/risk-score.service.ts. Although there are also some test files with .spec.ts in their filename
 
-We give equal points for both functional correctness and for coding style and use of best practices. Also if you feel you are running out of time please feel free to leave psuedo code
+We give equal points for both functional correctness and for coding style and use of best practices. Also if you feel you are running out of time please feel free to leave psuedo code.
+
+We also do not mark down for usage of modern developer tools like Copilot or other LLM based solutions
 
 # JIRA TICKET:
 

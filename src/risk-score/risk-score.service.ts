@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { RiskRuleService } from 'src/risk-rule/risk-rule.service';
-import { WalletService } from 'src/wallet-service/wallet.service';
+import { RiskRuleService } from '../risk-rule/risk-rule.service';
+import { WalletService } from '../wallet-service/wallet.service';
 
 @Injectable()
 export class RiskScoreService {

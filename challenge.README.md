@@ -1,7 +1,6 @@
 Hello, welcome to Elliptic's technical challenge. Today, you have 1 hour to make a start on an Elliptic Jira ticket. Calculating a risk score based on a Crypto wallet's on chain activity is the heart of what Elliptic does. In the real world we have a service similar to the one you are writing today that calculates 100 risk scores for wallets every second.
 
-This API takes "contributions" from a different service which represent where a wallet's funds came from as a percentage, and applies them to a defined set of Risk Rules. These risk rules define what Elliptic should highlight as risky and how contributions from different sources should be scored.
-They allow Elliptic to define that contributions from entities which are sanctioned are extremely high risk, and things from privacy services and CoinSwaps are still risky but 
+This API takes "contributions" from a different service which represent where a wallet's funds came from as a percentage, and applies them to a defined set of Risk Rules. These risk rules define what Elliptic should highlight as risky and how contributions from different sources should be scored. They allow Elliptic to define that contributions from entities which are sanctioned are extremely high risk, and things from privacy services and CoinSwaps are still risky but lower risk than directly from a sanctioned source 
 
 
 Please see readme.md for details on how to run the code, and please don't worry if you don't have experience with Nestjs. We have set up this codebases, so the only file you _need_ to change is src/risk-score/risk-score.service.ts. Although there are also some test files with .spec.ts in their filename

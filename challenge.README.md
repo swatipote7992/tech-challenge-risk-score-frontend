@@ -3,7 +3,7 @@ Hello, welcome to Elliptic's technical challenge. Today, you have 1 hour to make
 This API takes "contributions" from a different service which represent where a wallet's funds came from as a percentage, and applies them to a defined set of Risk Rules. These risk rules define what Elliptic should highlight as risky and how contributions from different sources should be scored. They allow Elliptic to define that contributions from entities which are sanctioned are extremely high risk, and things from privacy services and CoinSwaps are still risky but lower risk than directly from a sanctioned source 
 
 
-Please see readme.md for details on how to run the code, and please don't worry if you don't have experience with Nestjs. We have set up this codebases, so the only file you _need_ to change is src/risk-score/risk-score.service.ts. Although there are also some test files with .spec.ts in their filename
+Please see readme.md for details on how to run the code, and please don't worry if you don't have experience with Nestjs. We have set up this codebases, so the only file you _need_ to change is src/risk-score/risk-score.service.ts. Although there are also some test files with e2e.spec.ts and .spec.ts in their filename that you may wish to add to.
 
 We give equal points for both functional correctness and for coding style and use of best practices. Also if you feel you are running out of time please feel free to leave psuedo code.
 
@@ -21,7 +21,7 @@ Then I receive a number between 0-10 representing the risk of the wallet
 
 ### Acceptance criteria:
 - The API returns a risk-score between 0-10
-- Risk Rules contain the categories that they should be applied to
+- Risk Rules should be matched when the category name matches the category on the contribution
 - When a risk rule matches a contribution, the score is calculated by: 
     - Taking the `max_score` when the contribution percentage is higher than the `max_contribution_threshold`
     - Taking the `min_score` when the contribution percentage is lower than the `min_contribution_threshold`

@@ -12,10 +12,7 @@
 
 
 ## Testing
-Unit tests (at a file level) can be run with
+All tests can be run with:
 `npm test`
-
-E2E tests (at an end point level) can be run with:
-`npm run test:e2e`
 
 (see package.json for some other useful test commands)

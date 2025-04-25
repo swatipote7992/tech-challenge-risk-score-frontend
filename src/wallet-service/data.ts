@@ -149,6 +149,31 @@ const wallets: Record<string, Wallet> = {
       ],
     },
   },
+  '1JuEjh9znXwqsy5RrnKqgzqY4Ldg7rnj5n': {
+    walletHash: '1JuEjh9znXwqsy5RrnKqgzqY4Ldg7rnj5n',
+    analysed_at: '2025-04-08T14:07:59.272Z',
+    asset_tier: 'full',
+    contributions: {
+      source: [
+        {
+          contribution_percentage: 100,
+          contribution_value: {
+            usd: 1.61,
+          },
+          entity: {
+            "name": "Satoshi Nakamoto",
+            "category": "User",
+            "category_id": "15e93707-e533-4017-946a-2ec49b5e6267",
+            "actor_id": 1488,
+            "entity_id": "3032c0e1-37dd-4790-99fa-af15477168bc",
+            "is_primary_entity": true,
+            "is_vasp": false,
+            "is_after_sanction_date": false
+          },
+        },
+      ],
+    },
+  }
 };
 
 export default wallets;

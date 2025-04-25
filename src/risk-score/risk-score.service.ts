@@ -6,12 +6,11 @@ import { WalletService } from '../wallet-service/wallet.service';
 export class RiskScoreService {
     constructor(private readonly riskRuleService: RiskRuleService, private readonly walletService: WalletService) {}
 
-    async getRiskScoreByWalletHash(walletHash: string): Promise<number> {
+    async getRiskScoreByWalletHash(walletHash: any): Promise<number> {
         const riskRules = await this.riskRuleService.getRiskRules();
         const walletData = await this.walletService.getWalletContributions(walletHash);
 
         // Loop through the risk rules and calculate a risk score.
-
         return 0;
     }
 }

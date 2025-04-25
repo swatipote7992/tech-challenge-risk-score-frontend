@@ -34,7 +34,7 @@ There are some examples that are already set up in the server as mocked data.
 
 - 0xd8e749e457fcd1918c9a589bfaa87db9f8e154d6 - Should trigger the maximum score
 - 0xeaa386b95dd9be76db27f6baef7550f067df5645 - This one is low and is less than the threshold so shouldn't trigger the rule
-- bc1qr5f8fz8l2v6q06ng7sgk9g46hma620nt0d7vkr - Should trigger multiple risk rules
+- bc1qr5f8fz8l2v6q06ng7sgk9g46hma620nt0d7vkr - Should trigger multiple risk rules (although we need to keep the score between 0-10!)
 - 0x9449f92f36230f171b8d71810a62b1e76b70e2f5 - This one has contributions between the min and the max and should score 9.8
 - 1JuEjh9znXwqsy5RrnKqgzqY4Ldg7rnj5n - matches on entities
 

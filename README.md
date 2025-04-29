@@ -53,7 +53,9 @@ There are some examples that are already set up in the server as mocked data.
 ## Running the server
 
 `npm start`
+
 `npm run start:dev` (for watching code changes)
+
 This runs the server at `http:localhost:3000`
 
 

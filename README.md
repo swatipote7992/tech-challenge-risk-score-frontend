@@ -52,6 +52,7 @@ There are some examples that are already set up in the server as mocked data.
 
 `npm start`
 `npm run start:dev` (for watching code changes)
+This runs the server at `http:localhost:3000`
 
 
 ## Testing
@@ -64,5 +65,6 @@ All tests can be run with:
 ## Submission
 You should submit your code within one hour of starting the challenge.
 
-npm pack will output an archive risk-api-0.0.1.tgz
-Reply to the email that sent you the link to this repo, with the .tgz file attached.
+`npm run pack` will output an zip file called risk-api.zip
+
+Reply to the email that sent you the link to this repo, with the .zip file attached. If you receive an email saying the attachment is blocked, please let us know and send us a link to the file in a cloud sharing site, such as GDrive/OneDrive.

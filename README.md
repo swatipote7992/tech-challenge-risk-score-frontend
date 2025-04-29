@@ -14,7 +14,9 @@ We also do not mark down for usage of modern developer tools like Copilot or oth
 # JIRA TICKET: RISK-010
 
 Given I am a customer of Elliptic,
+
 When I call the new Risk-API at ${BASE_URL}/risk-score/wallet/:wallet_hash
+
 Then I receive a number between 0-10 representing the risk of the wallet
 
 
@@ -51,7 +53,9 @@ There are some examples that are already set up in the server as mocked data.
 ## Running the server
 
 `npm start`
+
 `npm run start:dev` (for watching code changes)
+
 This runs the server at `http:localhost:3000`
 
 

@@ -14,7 +14,9 @@ We also do not mark down for usage of modern developer tools like Copilot or oth
 # JIRA TICKET: RISK-010
 
 Given I am a customer of Elliptic,
+
 When I call the new Risk-API at ${BASE_URL}/risk-score/wallet/:wallet_hash
+
 Then I receive a number between 0-10 representing the risk of the wallet
 
 

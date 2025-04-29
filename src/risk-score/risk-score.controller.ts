@@ -5,8 +5,8 @@ import { RiskScoreService } from './risk-score.service';
 export class RiskScoreController {
   constructor(private readonly riskScoreService: RiskScoreService) {}
   @Get('wallet/:walletHash')
-  getRiskScoreByWalletHash(@Param('walletHash') txHash: string) {
+  getRiskScoreByWalletHash(@Param('walletHash') walletHash: any) {
     // Logic to retrieve a specific risk score by ID
-    return this.riskScoreService.getRiskScoreByWalletHash(txHash);
+    return this.riskScoreService.getRiskScoreByWalletHash(walletHash);
   }
 }

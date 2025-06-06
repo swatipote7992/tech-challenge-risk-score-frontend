@@ -6,6 +6,7 @@ This API takes "contributions" from a different service which represent where a 
 
 
 Please see below for instructions on how to run the code, and please don't worry if you don't have experience with Nestjs. We have set up this codebase, so the only file you _need_ to change is src/risk-score/risk-score.service.ts. Although there are also some test files with e2e.spec.ts and .spec.ts in their filename that you may wish to add to.
+The service has some test data, which we've abstracted via a service into `src/risk-rule/data.ts` and `src/wallet-service/data.ts`, this us simulating the data coming from outside of our API
 
 We give equal points for both functional correctness and for coding style and use of best practices. Also if you feel you are running out of time please feel free to leave psuedo code.
 

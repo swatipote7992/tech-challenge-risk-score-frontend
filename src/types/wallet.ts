@@ -7,7 +7,7 @@ type Wallet = {
   };
 };
 
-type Contribution = {
+export type Contribution = {
   contribution_percentage: number;
   contribution_value: {
     usd: number;
